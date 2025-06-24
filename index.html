@@ -9,6 +9,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
   <script src="https://unpkg.com/feather-icons"></script>
+
+<!-- Apline JS-->
+ <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+ <!-- App -->
+  <script src="src/app.js"></script>
+
 </head>
 <body>
 
@@ -16,26 +23,75 @@
   <nav class="navbar">
     <a href="index.html" class="navbar-logo">kenangan<span>senja</span>.</a>
     <div class="navbar-nav">
-      <a href="index.html">Home</a>
-      <a href="about.html">Tentang Kami</a>
-      <a href="menu.html">Menu</a>
-      <a href="contact.html">Kontak</a>
-    </div>
-    <div class="navbar-extra">
-      <a href="#"><i data-feather="search"></i></a>
-      <a href="#"><i data-feather="shopping-cart"></i></a>
-      <a href="#" class="menu" id="hamburger-menu"><i data-feather="menu"></i></a>
-    </div>
+  <a href="index.html">Home</a>
+  <a href="about.html">Tentang Kami</a>
+  <a href="menu.html">Menu</a>
+  <a href="product.html">Produk</a>
+  <a href="contact.html">Kontak</a>
+  
+  <!-- 3 Link Tambahan -->
+  <a href="promo.html">Promo</a>
+  <a href="blog.html">Blog</a>
+  <a href="faq.html">FAQ</a>
+</div>
+    <!-- SHopping cart start-->
+     <div class="shopping-cart">
+      <div class="cart-item">
+        <img src="img/product/1.jpg" alt="produk 1">
+        <div class="item-detail">
+          <h3>produk 1</h3>
+          <div class="item-price">IDR 30K</div>
+        </div>
+        <i data-feather="trash-2" class="remove-item"></i>
+      </div>
+      <div class="cart-item">
+        <img src="img/product/2.jpg" alt="produk 1">
+        <div class="item-detail">
+          <h3>produk 2</h3>
+          <div class="item-price">IDR 30K</div>
+        </div>
+        <i data-feather="trash-2" class="remove-item"></i>
+      </div>
+      <div class="cart-item">
+        <img src="img/product/3.jpg" alt="produk 1">
+        <div class="item-detail">
+          <h3>produk 3</h3>
+          <div class="item-price">IDR 30K</div>
+        </div>
+        <i data-feather="trash-2" class="remove-item"></i>
+      </div>
+     </div>
+    <!-- SHopping cart end -->
+
   </nav>
 
   <!-- Hero Section -->
   <section class="hero" id="home">
     <main class="content">
       <h1>Mari Nikmati Secangkir <span>Kopi</span></h1>
-      <p>Di bawah langit jingga yang perlahan meredup,</p>
-      <a href="menu.html" class="cta">Beli Sekarang</a>
-    </main>
+      <p>.dan biarkan jawi  Coffee menjadi teman setia Kalian setiap hari.
+      Selamat datang di Jawi Coffee, tujuan utama Kalian untuk menemukan kopi berkualitas tinggi yang dipanggang dengan cinta 
+      dan disajikan dengan semangat. Kami memahami bahwa secangkir kopi lebih dari sekadar minuman; ini adalah momen, ritual, 
+      dan sumber inspirasi.</p>
+     <a href="product.html" class="cta">Beli Sekarang</a>
+
+
+</main>
   </section>
+    
+  <!-- Video Tentang Kopi -->
+  <section class="video-section" style="padding: 2rem; text-align: center;">
+    <h2>Fakta Menarik Tentang Kopi</h2>
+    <p>Nikmati video singkat tentang kopi yang akan menambah wawasan dan kecintaanmu pada setiap tegukan.</p>
+    <div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin-top: 1rem;">
+      <iframe src="https://www.youtube.com/embed/qZ8F21JsTOU"
+              title="10 Fakta Menarik Tentang Kopi"
+              style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"
+              allowfullscreen>
+      </iframe>
+    </div>
+  </section>
+
 
   <!-- Footer -->
   <footer>
@@ -44,12 +100,19 @@
       <a href="#"><i data-feather="twitter"></i></a>
       <a href="#"><i data-feather="facebook"></i></a>
     </div>
-    <div class="links">
-      <a href="index.html">Home</a>
-      <a href="about.html">Tentang Kami</a>
-      <a href="menu.html">Menu</a>
-      <a href="contact.html">Kontak</a>
-    </div>
+    <div class="navbar-nav">
+  <a href="index.html">Home</a>
+  <a href="about.html">Tentang Kami</a>
+  <a href="menu.html">Menu</a>
+  <a href="product.html">Produk</a>
+  <a href="contact.html">Kontak</a>
+  
+  <!-- 3 Link Tambahan -->
+  <a href="promo.html">Promo</a>
+  <a href="blog.html">Blog</a>
+  <a href="faq.html">FAQ</a>
+</div>
+
     <div class="credit">
       <p>Created by <a href="#">MuhammadIkhwan</a>. | &copy; 2025.</p>
     </div>
